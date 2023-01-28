@@ -12,5 +12,9 @@
 public class SpeedLight {
     public static void main(String [] args) {
 //class completed
+        float speed= 340;
+        float seconds= 5;
+        float distance= speed * seconds;
+        System.out.println("The distance: " + distance + " meters");
     }
 }
