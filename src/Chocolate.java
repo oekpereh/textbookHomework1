@@ -3,17 +3,20 @@
  * @author: Olufunmilayo Ekpereh
  * version 1.0
  * Course: ITEC 2140 Spring 2023
- * Written: February 27, 2023
+ * Written: February 2, 2023
  *
- * This class is computing the number of chocolate bags
+ * This program will compute the number of chocolate bags needed to add
+ * three chocolates instead of two chocolates
+ * In this program, I will declare variables: total bags, each Choc bag,
+ * size, number of bags
  */
 
 public class Chocolate {
     public static void main(String[] args) {
-        int bags = 9;
-        int choco_2 = 2;
-        int choco_3 = 3;
-        int number_bags = bags * choco_2/choco_3;
-        System.out.println("You need "+number_bags + " bags to add three chocolate bars to each bag.");
+        int total_bags = 9; //total bags
+        int each_choc_bag = 2; //chocolate in each bag
+        int size = 3; //size of bag
+        int numberOfbags = total_bags * each_choc_bag/size;
+        System.out.println("You need "+numberOfbags + " bags to add three chocolate bars to each bag.");
     }
 }
