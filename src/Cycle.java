@@ -5,7 +5,7 @@
  * Course: ITEC 2140 Spring 2023
  * Written: February 2, 2023
  *
- * This class is computing the total number of tricycles at the shop.
+ * This program is computing the total number of tricycles at the shop.
  * In this program, I will declare variables: number of wheels, total bicycle,
  * bicycle wheels, wheels bicycle, total tricycle
  */
