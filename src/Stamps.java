@@ -12,8 +12,8 @@
 
 public class Stamps {
     public static void main(String[] args) {
-        int Susan = 8;
-        int Jean = 40;
+        int Susan = 8; //total number of Susan's stamps
+        int Jean = 40; //total number of Jean's stamps
         int numb_of_stamps = Jean - Susan;
         System.out.println("Jean has "+numb_of_stamps + " more stamps than Susan.");
     }
